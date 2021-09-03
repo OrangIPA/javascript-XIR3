@@ -3,7 +3,7 @@
 ![Praktikum1](screenshot/Praktikum1-1.jpg)
 ![Praktikum1](screenshot/Praktikum1-2.jpg)
 
-----------===============----------
+
 
 ## Praktikum 2
 ### Tambah
