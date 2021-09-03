@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalkulator</title>
+    </head>
+    <script>
+        function tambah(a, b){
+            document.calc.Hasil.value = a + b
+        }
+        function kurang(a, b){
+            document.calc.Hasil.value = a - b
+        }
+        function kali(a, b){
+            document.calc.Hasil.value = a * b
+        }
+        function bagi(a, b){
+            document.calc.Hasil.value = a / b
+        }
+    </script>
+    <body>
+        <form method="POST" name="calc">
+            <p>Bilangan 1: <input type="number" name="B1" size="10"><br></p>
+            <p>Bilangan 2: <input type="number" name="B2" size="10"><br></p>
+            <p>Hasil: <input type="number" name="Hasil" size="20"><br></p>
+            <p>
+                <input type="button" value="+" name="tombol tambah" onclick="tambah(document.calc.B1.value, document.calc.B2.value)">
+                <input type="button" value="*" name="tombal kali" onclick="kali(document.calc.B1.value, document.calc.B2.value)">
+                <input type="button" value="-" name="tombal kurang" onclick="kurang(document.calc.B1.value, document.calc.B2.value)">
+                <input type="button" value="/" name="tombal bagi" onclick="bagi(document.calc.B1.value, document.calc.B2.value)">
+            </p>
+        </form>
+    </body>
+</html>
